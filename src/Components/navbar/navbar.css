@@ -1,0 +1,64 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  width: 95%;
+  height: 80px;
+  border-radius: 13px;
+  position: fixed;
+  margin-top: 1.5rem;
+  background: #fff;
+  z-index: 9999;
+}
+.navbarLogo {
+  color: #222;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.navMenu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.navLinks {
+  font-weight: 600;
+  color: #0e1a3b;
+  white-space: nowrap;
+  padding: 0.7rem 0.6rem;
+  text-decoration: none;
+  font-size: 18px;
+}
+li {
+  padding: 7px 7px;
+  overflow: hidden;
+}
+.navLinks:hover {
+  background: #01959a;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.navLinksMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}

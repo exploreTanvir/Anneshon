@@ -1,0 +1,140 @@
+.topbar {
+  height: 70px;
+  width: 100%;
+  background: #deeeff;
+  color: #15023a;
+  position: fixed;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.15);
+  top: 0;
+  z-index: 3;
+  transition: all 1s ease;
+  overflow-y: hidden;
+
+  &.active {
+    background: #15023a;
+    color: white;
+    .item {
+      background: #15023a;
+    }
+    .login_reg {
+      background: #15023a;
+      border: 2px solid white;
+    }
+
+    .btn1,
+    .btn2 {
+      background: #15023a;
+      transition: all 1s ease;
+    }
+    .dropDown span {
+      &:first-child {
+        background: white;
+        transform: rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:last-child {
+        background: white;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+.wrapper {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  border-radius: 5px;
+  padding: 5px 7px;
+  transition: all 0.7s ease;
+
+  span {
+    font-family: roboto !important;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.item:hover {
+  box-shadow: 0px 0px 6px -3px rgba(0, 0, 0, 0.75);
+}
+.icon {
+  font-size: 25px;
+  margin-right: 5px;
+}
+span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.dropDown {
+  height: 25px;
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  overflow: hidden;
+}
+.dropDown span {
+  width: 100%;
+  height: 3px;
+  background: #15023a;
+  transform-origin: left;
+  transition: all 2s ease;
+}
+.dropDown span:nth-child(2) {
+  width: 80%;
+}
+.anneshon {
+  width: 50px;
+  height: 50px;
+}
+
+.login_reg {
+  background: hsl(207, 100%, 56%);
+  color: white;
+  transition: all 0.5s ease;
+  border: 0;
+  font-size: 16px;
+}
+
+.btn1,
+.btn2 {
+  background: hsl(207, 100%, 56%);
+  border: 0;
+  color: white;
+  font-size: 18px;
+}
+.btn1:hover {
+  color: #000000;
+}
+.btn2:hover {
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .btn1,
+  .btn2 {
+    font-size: 16px;
+  }
+  .login_reg {
+    display: none;
+  }
+  .left {
+    padding: 0 !important;
+    margin-left: 0 !important;
+  }
+}

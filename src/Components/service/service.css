@@ -1,0 +1,66 @@
+.service {
+  background: url(../../assets/bg3.png), repeat;
+  background-size: cover;
+  padding: 3rem 0;
+
+  h2 {
+    font-size: 3rem;
+  }
+  span {
+    font-size: 3rem;
+    color: #01f965;
+  }
+}
+@media (max-width: 575px) {
+  .serviceTop {
+    font-size: 1.7rem !important;
+  }
+  .serviceTop span {
+    font-size: 1.7rem !important;
+  }
+}
+.card {
+  width: 25rem;
+  height: 17rem;
+  box-shadow: 0px 0px 6px 0px rgba(201, 229, 221, 0.75);
+  @media (max-width: 575px) {
+    margin-top: 8px !important;
+  }
+  p {
+    color: gray;
+    font-size: 16px;
+    word-spacing: 2px;
+    @media (max-width: 575px) {
+      text-align: center !important;
+    }
+  }
+  h4 {
+    color: rgb(54, 77, 60);
+  }
+  .serviceImg img {
+    height: 50px;
+    width: 50px;
+  }
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  background: #e8ffe1;
+}
+@media (max-width: 767px) {
+  .service h2 {
+    font-size: 2rem;
+  }
+  .service span {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .service {
+    background: linear-gradient(
+      90deg,
+      rgba(229, 255, 220, 0.7),
+      rgba(0, 0, 0, 0.3)
+    );
+  }
+}

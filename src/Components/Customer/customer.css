@@ -1,0 +1,44 @@
+.customerTop {
+  background: url("../../assets/faqBG3.png") no-repeat;
+  background-size: cover;
+}
+.customerSub {
+  width: 35px;
+  height: 35px;
+  background: rgb(0, 65, 105);
+  font-size: 19px;
+  @media (max-width: 575px) {
+    background: none;
+    overflow: hidden;
+    color: black !important;
+  }
+}
+.customer {
+  h2 {
+    font-size: 3rem;
+  }
+  span {
+    font-size: 3rem;
+    color: #01f965;
+  }
+}
+.leftCustomerImg {
+  box-shadow: 31px 30px 4px 0px rgba(187, 213, 195, 0.62);
+}
+.customerTitle {
+  color: rgb(108, 108, 108);
+}
+.customerRight {
+  p:first-child {
+    font-size: 18px;
+    color: rgb(149, 149, 218);
+  }
+  @media (max-width: 575px) {
+    padding: 0 30px !important;
+  }
+}
+.customerRight h4:last-child {
+  @media (max-width: 575px) {
+    padding-top: 5px !important;
+  }
+}
