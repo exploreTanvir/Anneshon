@@ -1,38 +1,42 @@
 .home {
   background-position: left;
   justify-content: center;
-  height: 91vh;
+  height: 93vh;
   margin-top: 48px;
   display: flex;
   align-items: center;
-  background: linear-gradient(10deg, rgb(0 0 0 / 80%), rgba(4, 8, 4, 0.3)),
-    url(../../assets/ac1b8f02ca2c662ace2fa6314cf94568.jpg) no-repeat;
+  background: linear-gradient(
+      90deg,
+      rgba(241, 250, 255, 0.8),
+      rgba(99, 99, 99, 0.3)
+    ),
+    url(../../assets/bg12.png);
   position: relative;
   background-size: cover;
   background-position: center;
 }
 .home span {
-  color: #01f965;
+  color: #09077e;
   font-size: 4rem;
 }
 .home .content h1 {
   font-size: 4rem;
-  color: #fff;
+  color: #000000;
 }
 .home .content p {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.3;
   padding: 1rem 0;
-  color: #eee;
+  color: #535353;
   @media (max-width: 575px) {
     text-align: center;
   }
 }
 
 .heroImg {
-  width: 35rem;
-  height: 35rem;
+  width: 41rem;
+  height: 41rem;
 }
 
 .animated {
@@ -91,14 +95,20 @@
   }
 }
 
+@media (max-width: 575px) {
+  .heroBtn1 {
+    margin-bottom: 10px;
+  }
+}
+
 .heroBtn1 {
   position: relative;
   z-index: 1;
   padding: 13px 30px;
   font-size: 20px;
   transition: 0.5s;
-  background: #017b32;
-  color: rgb(0, 0, 0);
+  background: #0b00a5;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 5px;
   font-style: 50px;
@@ -129,7 +139,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #01f965;
+  background: #090761;
   z-index: -1;
   transform-origin: left;
   transition: transform 0.5s ease;
@@ -137,41 +147,6 @@
 }
 
 .heroBtn1:hover::before {
-  transform-origin: right;
-  transition: transform 0.5s ease;
-  transform: scaleX(0);
-}
-
-.heroBtn2 {
-  position: relative;
-  z-index: 1;
-  padding: 13px 30px;
-  transition: 0.5s;
-  font-size: 20px;
-  background: #017b32;
-  color: rgb(0, 12, 143);
-  text-decoration: none;
-  border-radius: 5px;
-  border: 1px solid gray;
-}
-.heroBtn2:hover {
-  color: white;
-}
-.heroBtn2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgb(255, 255, 255);
-  z-index: -1;
-  transform-origin: left;
-  transition: transform 0.5s ease;
-  transform: scaleX(1);
-}
-
-.heroBtn2:hover::before {
   transform-origin: right;
   transition: transform 0.5s ease;
   transform: scaleX(0);

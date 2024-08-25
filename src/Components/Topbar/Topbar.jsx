@@ -11,7 +11,7 @@ const TopBar = ({menuOpen,setMenuOpen}) => {
         <div className={"topbar "+(menuOpen && "active")}>
       <div className='wrapper'>
         <div className='left col-8 ps-3 ms-5'>
-          <a href='#intro' className='anneshon'>
+          <a href='https://anneshon.org'>        
             <img src={anneshon} alt="" className='anneshon' />
           </a>
           <div className='item'>
@@ -33,7 +33,7 @@ const TopBar = ({menuOpen,setMenuOpen}) => {
             <span className='line1'></span>
             <span className='line2'></span>
             <span className='line3'></span>
-          </div>
+          </div> 
         </div>
       </div>
     </div>

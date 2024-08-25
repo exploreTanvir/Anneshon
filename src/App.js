@@ -1,18 +1,15 @@
 import React, { useEffect, useState } from 'react';
-
+import {
+  Route,
+  BrowserRouter as Router,
+  Switch
+} from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import Customer from './Components/Customer/Customer';
-import Footer from './Components/Footer/Footer';
-import Hero from './Components/Hero/Hero';
 import Menu from './Components/Menu/Menu';
-import Reason from './Components/Reason/Reason';
-import Service from './Components/service/Service';
-import Solve from './Components/Solve/Solve';
 import TopBar from './Components/Topbar/Topbar';
-import Contact from './Components/Contact/Contact';
+import HomePage from './Components/pages/HomePage';
 // import Navbar from './Components/navbar/Navbar';
-import Newsletter from './Components/newsletter/Newsletter';
 
 const App = () => {
   const [menuOpen,setMenuOpen]=useState(false)
@@ -45,17 +42,8 @@ const App = () => {
     <div className='app'>
         <TopBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Menu  menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-       {/* <Navbar/> */}
-
-       <Hero/>
-      <Service/>
-      <Reason/>
-      <Customer/>
-      <Solve/>
-      <Contact/>
-      <Newsletter/>
-       <Footer/>
-      
+       <HomePage/>
+                  
        
        {showScrollButton && (
         <div className='topArrow' onClick={scrollToTop}><i className="fa-solid fa-arrow-up"></i></div>

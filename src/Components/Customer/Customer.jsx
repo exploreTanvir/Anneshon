@@ -6,7 +6,7 @@ const Customer = () => {
   return (
     <div className='customerTop'> 
       <div className="container customer">
-      <h2 className='fw-bold serviceTop mt-4 overflow-hidden text-center'><span className='fw-bold'>"অন্বেষন"</span> কীভাবে কাজ করে? </h2>
+      <h2 className='fw-bold pt-1 serviceTop mt-4 overflow-hidden text-center'><span className='fw-bold'>"অন্বেষণ"</span> কীভাবে কাজ করে? </h2>
         <div className="row align-items-center">
           <div className="col-lg-6 p-5">
             <img className='leftCustomerImg' src={customerImg} alt="" />

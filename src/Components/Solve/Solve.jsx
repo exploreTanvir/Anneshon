@@ -6,7 +6,7 @@ const Solve = () => {
   return (
     <div className='SolveTop'>
         <div className="container solve">
-        <h2 className='fw-bold serviceTop mt-4 overflow-hidden text-center'><span className='fw-bold'>"অন্বেষন"</span> এর উদ্দেশ্য </h2>
+        <h2 className='fw-bold serviceTop mt-4 overflow-hidden text-center'><span className='fw-bold'>"অন্বেষণ"</span> এর উদ্দেশ্য </h2>
             <div className="row align-items-end mb-4">
                 <div className="col-lg-6 customerRight solveMain">
                 <p className='mt-2'>আমাদের সমাধান</p>
@@ -15,7 +15,8 @@ const Solve = () => {
                 <div className="row">
                 <div className='col-lg-6 solveLeft'>
                 <div class="d-flex gap-3 mt-4 mb-1 align-items-start ">
-                    <div class="rounded-circle d-flex align-items-center justify-content-center p-1"><i class="fa-solid fa-check p-1 rounded-circle"></i></div><div>
+                   <i class="fa-regular fa-circle-check"></i>
+                    <div>
                     <p>সহজলভ্য শিক্ষা</p>
                     <p>অন্তর্ভুক্তিমূলক লার্নিং </p>
                     </div>
@@ -23,7 +24,12 @@ const Solve = () => {
                 </div>
                 <div className='col-lg-6 solveLeft'>
                 <div class="d-flex gap-3 mt-4 mb-1 align-items-start ">
-                    <div class="rounded-circle d-flex align-items-center justify-content-center p-1"><i class="fa-solid fa-check p-1 rounded-circle"></i></div><div>
+                <div className='p-1 overflow-hidden'>
+                <div className='p-1 overflow-hidden'>
+                <i class="fa-regular fa-circle-check"></i>
+                </div>
+                </div>
+                    <div>
                     <p>গুণগত মানের শিক্ষা প্রদান</p>
                     <p>দক্ষতা উন্নয়নের সুযোগ </p>
                     </div>
@@ -33,7 +39,10 @@ const Solve = () => {
                 <div className="row">
                 <div className='col-lg-6 solveLeft'>
                 <div class="d-flex gap-3 mt-4 mb-1 align-items-start ">
-                    <div class="rounded-circle d-flex align-items-center justify-content-center p-1"><i class="fa-solid fa-check p-1 rounded-circle"></i></div><div>
+                <div className='p-1 overflow-hidden'>
+                <i class="fa-regular fa-circle-check"></i>
+                </div>
+                    <div>
                     <p>ব্যক্তিগতকৃত শিক্ষার সুযোগ</p>
                     <p>শিক্ষার নতুন দিগন্ত</p>
                     </div>
@@ -41,7 +50,10 @@ const Solve = () => {
                 </div>
                 <div className='col-lg-6 solveLeft'>
                 <div class="d-flex gap-3 mt-4 mb-1 align-items-start ">
-                    <div class="rounded-circle d-flex align-items-center justify-content-center p-1"><i class="fa-solid fa-check p-1 rounded-circle"></i></div><div>
+                <div className='p-1 overflow-hidden'>
+                <i class="fa-regular fa-circle-check"></i>
+                </div>
+                    <div>
                     <p>ক্রমাগত উন্নয়নের সুযোগ</p>
                     <p>ডিজিটাল শিক্ষা প্ল্যাটফর্ম </p>
                     </div>

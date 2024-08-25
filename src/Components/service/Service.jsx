@@ -1,17 +1,17 @@
 import React from 'react'
 import service1 from "../../assets/service1.png"
-import service2 from "../../assets/service2.png"
-import service3 from "../../assets/service3.png"
-import service4 from "../../assets/service4.png"
-import service5 from "../../assets/service5.png"
-import service6 from "../../assets/service6.png"
+import service4 from "../../assets/service10.png"
+import service5 from "../../assets/service11.png"
+import service6 from "../../assets/service12.png"
+import service2 from "../../assets/service8.png"
+import service3 from "../../assets/service9.png"
 import "./service.css"
 
 const Service = () => {
   return (
     <section className='service'>
         <div className="container">
-            <h2 className='fw-bold serviceTop mt-3 overflow-hidden text-center'><span className='fw-bold'>"অন্বেষন"</span> কেন বেছে নেবেন</h2>
+            <h2 className='fw-bold serviceTop mt-3 overflow-hidden text-center'><span className='fw-bold'>"অন্বেষণ"</span> কেন বেছে নেবেন</h2>
             
             <div className="row" >
                 <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center overflow-hidden pb-2">

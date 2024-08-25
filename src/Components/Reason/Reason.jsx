@@ -10,7 +10,7 @@ const Reason = () => {
   return (
     <section className='Reason'>
         <div className="container">
-        <h2 className='fw-bold mt-5 overflow-hidden reasonHeading text-center'><span className='fw-bold'>"অন্বেষন"</span> সম্পর্কিত কিছু প্রশ্ন ও উত্তর</h2>
+        <h2 className='fw-bold mt-5 overflow-hidden reasonHeading text-center'><span className='fw-bold'>"অন্বেষণ"</span> সম্পর্কিত কিছু প্রশ্ন ও উত্তর</h2>
             <div className="row align-items-center">
                 <div className="col-lg-6 faqTop">
                     

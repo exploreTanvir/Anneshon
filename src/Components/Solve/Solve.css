@@ -1,7 +1,6 @@
 .SolveTop {
   background: url(../../assets/faqBG2.png) no-repeat;
   background-size: cover;
-
 }
 .solve {
   h2 {
@@ -9,7 +8,7 @@
   }
   span {
     font-size: 3rem;
-    color: #01f965;
+    color: #0e00d1;
   }
 }
 .solveLeft p {
@@ -17,9 +16,17 @@
   margin-bottom: 0 !important;
 }
 .solveLeft i {
-  border: 1px solid rgb(0, 0, 77);
   color: rgb(0, 11, 71);
+  font-size: 23px;
+  overflow: hidden;
 }
 .solveMain {
   padding: 0 50px;
+}
+@media (max-width: 575px) {
+  .solveLeft i {
+    border: none !important;
+    overflow: hidden;
+    color: rgb(0, 11, 71);
+  }
 }

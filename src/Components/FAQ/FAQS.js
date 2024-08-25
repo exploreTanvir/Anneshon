@@ -1,6 +1,5 @@
 import React from 'react'
 
-import "./faq.css"
 
 const FAQS = () => {
   return (
@@ -12,10 +11,10 @@ const FAQS = () => {
       <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
       এই অনলাইন স্কিল ডেভেলপমেন্ট প্ল্যাটফর্মটি কীভাবে কাজ করে ?
       </button>
-    </h2>
+    </h2> 
     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
       <div class="accordion-body">
-       <p><b>"অন্বেষন"</b> প্ল্যাটফর্মটি বিভিন্ন দক্ষতা উন্নয়নের কোর্স অফার করে, যা আপনি যেকোনো সময় এবং যেকোনো স্থান থেকে নিতে পারেন। আপনি একটি কোর্সে এনরোল করার পর, আপনাকে ভিডিও লেকচার, কুইজ, এবং প্রজেক্ট অ্যাসাইনমেন্টগুলির মাধ্যমে শেখানো হবে। এছাড়াও, আমাদের ফোরামে অন্যান্য শিক্ষার্থী এবং প্রশিক্ষকদের সাথে যোগাযোগ করতে পারবেন।</p>
+       <p><b>"অন্বেষণ"</b> প্ল্যাটফর্মটি বিভিন্ন দক্ষতা উন্নয়নের কোর্স অফার করে, যা আপনি যেকোনো সময় এবং যেকোনো স্থান থেকে নিতে পারেন। আপনি একটি কোর্সে এনরোল করার পর, আপনাকে ভিডিও লেকচার, কুইজ, এবং প্রজেক্ট অ্যাসাইনমেন্টগুলির মাধ্যমে শেখানো হবে। এছাড়াও, আমাদের ফোরামে অন্যান্য শিক্ষার্থী এবং প্রশিক্ষকদের সাথে যোগাযোগ করতে পারবেন।</p>
       </div>
     </div>
   </div>

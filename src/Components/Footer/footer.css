@@ -1,6 +1,6 @@
 #footer {
-  background: url(../../assets/footer-bg.819c17fe.jpeg),
-    linear-gradient(10deg, rgb(0 0 0 / 70%), rgba(4, 8, 4, 0.3));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(11, 1, 80, 0.2)),
+    url(../../assets/footer-bg.819c17fe.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: roboto, sans-serif;
@@ -23,6 +23,6 @@
   }
 }
 a:hover {
-  color: #01f965;
-  transition: all 0.7s ease;
+  color: #a39cff;
+  transition: all 0.5s ease;
 }

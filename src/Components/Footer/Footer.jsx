@@ -13,19 +13,12 @@ const Footer = () => {
           <div className='d-flex align-items-center gap-3  mt-4'>
           <img src={anneshon} alt="" className='footerLogo'  />
           <h4 >"স্বপ্ন পূরণের পথে,<br />
-                      অন্বেষনের সাথে"</h4>
+                      অন্বেষণের সাথে"</h4>
           </div>
             <p className="py-3">
-              Lorem Ipsum is simply dummy text of the and typesetting industry.
-              Lorem Ipsum is dummy text of the printing.
+            আমাদের প্রতিষ্ঠান ই-লার্নিং শিক্ষার ক্ষেত্রে একটি বিশ্বস্ত নাম হিসেবে প্রতিষ্ঠিত। আমরা শিক্ষার্থীদের জন্য এমন একটি শিক্ষা ব্যবস্থা তৈরি করেছি যা তাদের চাহিদা অনুযায়ী শিক্ষার সুযোগ প্রদান করে এবং তাদেরকে প্রযুক্তির দ্রুত পরিবর্তনশীল বিশ্বে এগিয়ে থাকার জন্য প্রস্তুত করে।
             </p>
-            <div className="last_icon d-flex align-items-center gap-3 fs-5 ">
-              <a href="https://www.facebook.com/anneshondotcom"><i className="fa-brands fa-facebook-f "></i></a>
-              <a href="#"><i className="fa-brands fa-twitter "></i></a>
-              <a href="https://www.linkedin.com/company/anneshon/mycompany/"><i className="fa-brands fa-linkedin "></i></a>
-              <a href="https://www.youtube.com/@anneshondotcom"><i className="fa-brands fa-youtube"></i></a>
-              <a href="#"><i className="fa-brands fa-instagram"></i></a>
-            </div>
+           
             
           </div>
 
@@ -52,7 +45,14 @@ const Footer = () => {
               <i className="fa-location-dot fa-solid me-2"></i> মাগুরা পুলিশ লাইন, মাগুরা।
             </p>
             <p className='d-flex align-items-center'><i className="fa-phone fa-solid me-2"></i>+8801818301681</p>
-            <p className='d-flex align-items-center'><i class="fa-solid fa-envelope me-2"></i>anneshon@mail.com</p>
+            <p className='d-flex align-items-center'><i class="fa-solid fa-envelope me-2"></i>anneshon@gmail.com</p>
+            <div className="last_icon d-flex align-items-center gap-3 fs-5 ">
+              <a href="https://www.facebook.com/anneshondotcom"><i className="fa-brands fa-facebook-f "></i></a>
+              <a href="#"><i className="fa-brands fa-twitter "></i></a>
+              <a href="https://www.linkedin.com/company/anneshon/mycompany/"><i className="fa-brands fa-linkedin "></i></a>
+              <a href="https://www.youtube.com/@anneshondotcom"><i className="fa-brands fa-youtube"></i></a>
+              <a href="#"><i className="fa-brands fa-instagram"></i></a>
+            </div>
             
           </div>
 

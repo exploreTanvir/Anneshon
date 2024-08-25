@@ -1,6 +1,6 @@
-import { AssignmentOutlined, HomeOutlined, HomeRepairServiceOutlined, HowToRegOutlined, InfoOutlined, MenuBookOutlined, PersonAddAltOutlined, PhoneInTalkOutlined } from '@mui/icons-material'
-import React from 'react'
-import "./menu.css"
+import { AssignmentOutlined, HomeOutlined, HomeRepairServiceOutlined, HowToRegOutlined, InfoOutlined, MenuBookOutlined, PersonAddAltOutlined, PhoneInTalkOutlined, EngineeringIcon, EngineeringOutlined } from '@mui/icons-material';
+import React from 'react';
+import "./menu.css";
 
 const Menu = ({menuOpen,setMenuOpen}) => {
   return (
@@ -8,6 +8,9 @@ const Menu = ({menuOpen,setMenuOpen}) => {
         <ul>
             <li onClick={()=>setMenuOpen(false)}>
                 <a href='#'><HomeOutlined/> হোম</a>
+            </li>
+            <li onClick={()=>setMenuOpen(false)}>
+                <a href='https://service.anneshon.org' target="_blank" ><EngineeringOutlined/> সার্ভিস</a>
             </li>
             
             <li onClick={()=>setMenuOpen(false)}>
@@ -29,7 +32,7 @@ const Menu = ({menuOpen,setMenuOpen}) => {
                 <a href='#'><HowToRegOutlined/> প্রশিক্ষক নিবন্ধন</a>
             </li>
             <li onClick={()=>setMenuOpen(false)}>
-                <a href='#'><PersonAddAltOutlined/>    শিক্ষার্থী নিবন্ধন</a>
+                <a href='#'><PersonAddAltOutlined/>শিক্ষার্থী নিবন্ধন</a>
             </li>
             
             <li onClick={()=>setMenuOpen(false)}>

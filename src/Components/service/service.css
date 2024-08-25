@@ -7,8 +7,9 @@
     font-size: 3rem;
   }
   span {
+    padding-top: 5px;
     font-size: 3rem;
-    color: #01f965;
+    color: #0e00d1;
   }
 }
 @media (max-width: 575px) {
@@ -35,17 +36,17 @@
     }
   }
   h4 {
-    color: rgb(54, 77, 60);
+    color: rgb(4, 1, 88);
   }
   .serviceImg img {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
   }
 }
 .card:hover {
   transform: scale(1.05);
   transition: all 0.5s ease;
-  background: #e8ffe1;
+  background: #f4f5fb;
 }
 @media (max-width: 767px) {
   .service h2 {

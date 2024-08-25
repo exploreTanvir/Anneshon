@@ -67,50 +67,14 @@ const Contact = () => {
 
   return (
     <section className="contact contactTitle">
-     <h2 className='fw-bold mt-5 contactTop overflow-hidden text-center'><span className='fw-bold'>"অন্বেষন"</span> এর সাথে যোগাযোগের মাধ্যম</h2>
+     <h2 className='fw-bold mt-5 contactTop overflow-hidden text-center'><span className='fw-bold'>"অন্বেষণ"</span> এর সাথে যোগাযোগের মাধ্যম</h2>
       <div className="container">
         <div className="row pt-2 pb-5">
-          <div className="left-form col-md-12 col-lg-6 col-sm-12">
-            <div className="row gap-4 mb-4 contactRow">
-
-              <div className="sub-form col-md-5 col-sm-12">
-                <i className="fa-solid fa-location-dot"></i>
-                <h3>ঠিকানা</h3>
-                <p>
-                  মাগুরা পুলিশ লাইন,মাগুরা
-                </p>
-              </div>
-              <div className="sub-form col-md-5 col-sm-12">
-                <i className="fa-solid fa-phone"></i>
-                <h3>ফোন করো</h3>
-                <p>
-                  01818301681
-                </p>
-                <p>
-                  01712700934
-                </p>
-              </div>
-          </div>
-            <div className="row gap-4 contactRow">
-
-              <div className="sub-form col-md-5 col-sm-12">
-                <i className="fa-solid fa-envelope"></i>
-                <h3>ইমেইল করো</h3>
-                <p>
-                anneshon@gmail.com
-                </p>
-              </div>
-              <div className="sub-form col-md-5 col-sm-12">
-                <i className="fa-regular fa-clock"></i>
-                <h3>অফিস টাইম</h3>
-                <p>
-                  শনিবার - বৃহস্পতিবার
-                </p>
-
-              </div>
-          </div>
+          
+        <div className="col-lg-6 overflow-hidden mb-2">
+        <iframe className="map h-100 w-100 overflow-hidden" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1829.6517798103646!2d89.40482566481752!3d23.485573203408308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe570008acc5cf%3A0x7a40900fac2f42b1!2sAnneshon!5e0!3m2!1sen!2sbd!4v1724035483629!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <form onSubmit={handleSubmit} action="/POST" method="post" enctype="multipart/form-data" className="left-form col-md-12 col-lg-6 col-sm-12">
+        <form onSubmit={handleSubmit} action="/POST" method="post" enctype="multipart/form-data" className="left-form mt-1 col-md-12 col-lg-6 col-sm-12">
           <div>
             <div className="row gy-4">
               <div className="col-lg-6">

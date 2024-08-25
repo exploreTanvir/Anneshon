@@ -31,10 +31,11 @@ img {
 }
 .Reason span {
   font-size: 3rem;
-  color: #01f965;
+  color: #0e00d1;
 }
 .reasonHeading {
   font-size: 3rem;
+  padding-top: 5px;
   margin-bottom: 3rem;
   @media (max-width: 575px) {
     font-size: 1.7rem !important;
