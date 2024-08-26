@@ -24,11 +24,7 @@ const Solve = () => {
                 </div>
                 <div className='col-lg-6 solveLeft'>
                 <div class="d-flex gap-3 mt-4 mb-1 align-items-start ">
-                <div className='p-1 overflow-hidden'>
-                <div className='p-1 overflow-hidden'>
-                <i class="fa-regular fa-circle-check"></i>
-                </div>
-                </div>
+                <i class="fa-regular fa-circle-check"></i>  
                     <div>
                     <p>গুণগত মানের শিক্ষা প্রদান</p>
                     <p>দক্ষতা উন্নয়নের সুযোগ </p>

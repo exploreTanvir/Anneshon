@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="row align-items col-sm-12-center overflow-hidden">
                     <div className=" col-lg-6 content flex-column d-flex justify-content-center">
                     <h1 className=' overflow-hidden'>
-                   স্বপ্ন পূরণের পথে <br /><span  className='fw-bold'> " অন্বেষণর " </span>সাথে
+                   স্বপ্ন পূরণের পথে <br /><span  className='fw-bold'> "অন্বেষণর" </span>সাথে
                 </h1>
                 <p className='my-4'>বিভিন্ন পলিটেকনিক ইন্সটিটিউট এর শিক্ষকমন্ডলী এবং শিক্ষার্থীদের অংশগ্রহনে বিভিন্ন শিক্ষামূলক টিউটোরিয়াল বা টেকোনোলোজি সমন্ধিত সমস্যা সমাধানের জন্য অসাধারন একটি প্লাটফর্ম ।
                 </p>
@@ -20,7 +20,7 @@ const Home = () => {
                     <a href="https://service.anneshon.org/" target="_blank" className='heroBtn1 d-flex align-items-center gap-2 course' rel="noreferrer">সার্ভিসসমূহ দেখুন <i class="fa fa-arrow-right "></i></a>
                 </div>
                     </div>
-                    <div className="col-lg-6 animated heroImg  d-flex align-items-center">
+                    <div className="col-lg-6 animated heroImgContainer  d-flex align-items-center">
                         <img src={heroImg1} className='heroImg ' alt="" />
                     </div>
                 </div>

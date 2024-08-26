@@ -68,11 +68,14 @@ input:focus {
   .newsletter h3 {
     font-size: 20px;
   }
+  .newsInput {
+    padding: 6px 0 !important;
+  }
   .newsletter form {
     width: 90%;
     button {
-      padding: 2px 10px;
-      font-size: 12px !important;
+      padding: 2px 20px;
+      font-size: 14px !important;
     }
   }
 }

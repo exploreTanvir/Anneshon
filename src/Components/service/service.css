@@ -2,7 +2,9 @@
   background: url(../../assets/bg3.png), repeat;
   background-size: cover;
   padding: 3rem 0;
-
+  @media (max-width: 575px) {
+    padding: 0;
+  }
   h2 {
     font-size: 3rem;
   }
